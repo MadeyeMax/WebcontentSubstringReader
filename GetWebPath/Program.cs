@@ -42,10 +42,10 @@ public class Programm
         string end = ""; //insert end of text
         string code = getUrlData(url); 
 
-        string textBetween = webPath(code, start, end); //returns content between start and end text
+        string textbetween = webPath(code, start, end); //returns content between start and end text
 
 
-        Console.WriteLine(textBetween);
+        Console.WriteLine(textbetween);
 
     }
 
